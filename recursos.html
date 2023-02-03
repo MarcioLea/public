@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Gestor - Recursos do sistema</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
+            <a class="navbar-brand logo" href="#"><img src="img/logo.png" alt="Logo centro médico - sistema gestor"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-itens"
+                aria-controls="nav-itens" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-md-center" id="nav-itens">
+                <ul class="navbar-nav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                recursos dos sistema
+                            </a>
+                            <div class="dropdown-menu shadow-sm" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">recursos do sistema</a>
+                                <a class="dropdown-item" href="#">vantagens</a>
+                                <a class="dropdown-item" href="#">preços e planos</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">quem somos</a>
+                    </li>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                contato
+                            </a>
+                            <div class="dropdown-menu shadow-sm" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">fale conosco</a>
+                                <a class="dropdown-item" href="#">central de ajuda</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">materiais</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="recursos">
+            <section class="intro-recursos">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="display-2">Recursos do sistema</h2>
+                            <hr>
+                            <p class="lead">Conheça os recursos do sistema <strong>Gestor Centro Médico.</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/telas/menu-principal.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <a href="#mais-recursos" class="down"><img src="img/down.png" alt=""></a>
+                </div>
+            </section>
+            <section class="hero-recursos">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/telas/menu-principal.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <p class="lead"> No Menu Principal você pode identificar o potencial do
+                                sistema desenvolvido com <span>Design
+                                    de
+                                    mercado, operação simples e nivelado com acesso a cada
+                                    módulo.</span></p>
+                            <p class="lead"><span class="span">Gostou? Vem com a gente! Vem ser um parceiro do
+                                    <strong>Gestor
+                                        Centro
+                                        Médico.</strong></span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="hero-recursos">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="lead">Chame seus pacientes em uma TV por Voz e Texto.
+                                <span>Nessa mesma TV transmita suas Agendas Médica e Mídias Digitais.
+                                    Essa poderosa ferramenta reproduz artificialmente a voz humana e será somada
+                                    ao Gestor Centro Médico. </span>
+                            </p>
+                            <p class="lead"><span class="span">Ele é um sistema <q>texto para voz</q> que converte
+                                    texto para voz humana.</span></p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/telas/sintetizador.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="recursos-main" id="mais-recursos">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="display-2">
+                                Recursos do sistema
+                            </div>
+                            <p class="lead">
+                                Conheça os recursos do sistema gestor centro médico
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 align-items-center">
+                            <div class="nav">
+                                <button class="navitem" onclick="abrir(event, 'Cadastro')">Cadastros</button>
+                                <button class="navitem" onclick="abrir(event, 'Agendamento')">Agendamento</button>
+                                <button class="navitem" onclick="abrir(event, 'Relatorio')">Relatório</button>
+                                <button class="navitem" onclick="abrir(event, 'Prontuario')">Prontuário</button>
+                                <button class="navitem" onclick="abrir(event, 'Triagem')">Triagem</button>
+                                <button class="navitem" onclick="abrir(event, 'Todos')">Conheça todos</button>
+                            </div>
+                            <div id="Cadastro" class="conteudo tablinks">
+                                <h2 class="display-2">Ambientes completos de cadastros</h2>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="list">
+                                            <li>Cadastro de Funcionários, Cadastro completo de Pacientes podendo
+                                                adicionar sua foto para melhor identificá-lo, Cadastro de Médicos e
+                                                Dentistas.</li>
+                                            <li>Tabelas de Preços (Particular, fidelidade, convênios, outros).</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Agendamento" class="conteudo">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Agendamento</h2>
+                                        <ul class="list">
+                                            <li>Identicação dos inadimplentes na cor
+                                                vermelha</li>
+                                            <li>Marcação na agenda por médico/especialidade</li>
+                                            <li>Impressão do cupom de Recibo de
+                                                Pagamento, marcação de consulta para o
+                                                paciente
+                                                identificar o médico, o dia e a hora.</li>
+                                            <li>Impressão de cupom de preparos para orientação
+                                                sobre os exames</li>
+                                            <li>Impressão ASO</li>
+                                            <li>Impressão de Agenda Médica.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list">
+                                            <li>Opção para limitar a quantidade de
+                                                pacientes agenda</li>
+                                            <li>Listar quantidade de vagas disponíveis por
+                                                médico</li>
+                                            <li>Agendamento preferencial para idosos, gestantes, etc</li>
+                                            <li>Envio de mensagem "Confirmação da Consulta" via
+                                                Whatsapp</li>
+                                            <li>Chamar paciente na TV (por voz) para seguir o
+                                                atendimento</li>
+                                            <li>Liberação e Recebimento de Consultas / Exames e
+                                                Procedimentos</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div id="Relatorio" class="conteudo">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Relatório</h2>
+                                        <div class="list">
+                                            <li>Cobrança dos inadimplentes (Vencidas)
+                                            <li>Quantidade de Planos X Vidas Ativas </li>
+                                            <li>Adesão por Corretor</li>
+                                            <li>Aniversariante do Mês</li>
+                                            <li>Mensalidades Recebidas por Corretor</li>
+                                            <li>Mensalidades a Vencer</li>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="list">
+                                            <li>Cancelamentos de Planos Superiores a 3 Meses</li>
+                                            <li>Ticket Médio</li>
+                                            <li>Contatos dos Ativos</li>
+                                            <li>Extratos dos Pagamentos das Mensalidades</li>
+                                            <li>Uso de Clube de Benefícios</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Prontuario" class="conteudo">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Prontuário</h2>
+                                        <div class="list">
+                                            <li>Descrição da ficha médica e visualização dos atendimentos anteriores
+                                                cronologicamente por Médico e Especialidade
+                                            <li>Registro de fotos para acompanhar a evolução do tratamento. Ex. Um
+                                                dermatologista pode registrar uma foto de uma mancha para acompanhar sua
+                                                evolução / tratamento</li>
+                                            <li>Pesquisa do Cid10</li>
+                                            <li>Identificação da idade do paciênte em: Ano(s), mes(ses), e dias(s),
+                                                facilitando o atendimento de um pediatra por exemplo.</li>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="list">
+                                            <li>Impressão e
+                                                registro de:</li>
+                                            <ul>
+                                                <li>atestados</li>
+                                                <li>declarações</li>
+                                                <li>receituários</li>
+                                                <li>solicitações de exames</li>
+                                                <li>encaminhamentos</li>
+                                                <li>laudos diversos (USG, Raio-x, Tomografia, etc.)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Triagem" class="conteudo">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Triagem</h2>
+                                        <div class="list">
+                                            <li>Seu profissional da enfermaria fara o atendimento da triagem onde serão
+                                                lançados:</li>
+                                            <ul>
+                                                <li>pressão</li>
+                                                <li>peso</li>
+                                                <li>temperatura</li>
+                                                <li>altura</li>
+                                                <li>outros</li>
+                                            </ul>
+                                            <li>Na triagem poderá ser feita a ANAMNESE do paciente</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Todos" class="conteudo">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Sintetizador de Voz</h2>
+                                        <p class="lead">Chame seus pacientes em uma TV por Voz e Texto.
+                                            Nessa mesma TV transmita suas Agendas Médica e Mídias Digitais.
+                                            Essa poderosa ferramenta reproduz artificialmente a voz humana e será somada
+                                            ao Gestor Centro Médico. Ele é um sistema "TEXTO PARA VOZ" que converte
+                                            texto para voz humana.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Ambientes completos de Cadastros</h2>
+                                        <p class="lead">Cadastro de Funcionários, Cadastro completo de Pacientes podendo
+                                            adicionar sua foto para melhor identificá-lo, Cadastro de Médicos e
+                                            Dentistas.
+                                            Tabelas de Preços (Particular, fidelidade, convênios, outros).</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Cartão Fidelidade - Clube de benefícios ou ortodontia</h2>
+                                        <p class="lead">Assim que o cadastro for concluído, o sistema já disponibiliza a
+                                            impressão do contrato, carteirinha, boletos, etc.
+                                            Ao agendar, o sistema notifica se o cliente está em dia ou não, o
+                                            agendamento só será liberado de quem estiver em dia com suas mensalidades.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Impressão de boletos (Carnê)</h2>
+                                        <p class="lead">Para o recebimento de mensalidades (Cartão fidelidade) há um
+                                            gerador de carnês de pagamentos com boleto, com ótimo design de títulos
+                                            bancários, conferindo seriedade do serviço e diminuindo sua inadimplência.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Relatórios de Fidelidade</h2>
+                                        <p class="lead">Cobrança dos inadimplentes (Vencidas)
+                                            Quantidade de Planos X Vidas Ativas
+                                            Adesão por Corretor
+                                            Aniversariante do Mês
+                                            Mensalidades Recebidas por Corretor
+                                            Mensalidades a Vencer
+                                            Cancelamentos de Planos Superiores a 3 Meses
+                                            Ticket Médio
+                                            Contatos dos Ativos
+                                            Extratos dos Pagamentos das Mensalidades
+                                            Uso de Clube de Benefícios.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Pagamentos dos Profissionais - Médicos ou Dentistas</h2>
+                                        <p class="lead">O sistema emite automaticamente os relatórios de pagamentos e a
+                                            impressão de recibos dos profissionais.
+                                            Médicos: Ao contratar um médico por hora médica ou produtividade em
+                                            atendimento, o sistema emite o relatório de quanto você irá pagar ao médico
+                                            e lança a despesa no sistema.
+                                            Parceiros: Quanto aos parceiros como: Laboratório, Raio-X, USG, etc. O
+                                            sistema emite o relatório de quando será o (Custo) de repasse que o parceiro
+                                            irá receber de sua produtividade automáticamente.
+                                            Dentistas: Além do Sistema gerar o relatório de produtividade, temos os
+                                            repasses das mensalidades de ortodontia automatizando o pagamento.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Agendamento</h2>
+                                        <p class="lead">Identicação dos inadimplentes na cor vermelha
+                                            Marcação na agenda por médico/especialidade
+                                            Impressão do cupom de Recibo de Pagamento, marcação de consulta para o
+                                            paciente identificar o médico, o dia e a hora.
+                                            Impressão de cupom de preparos para orientação sobre os exames.
+                                            Impressão ASO / Impressão de Agenda Médica.
+                                            Opção para limitar a quantidade de pacientes agenda.
+                                            Listar quantidade de vagas disponíveis por médico.
+                                            Agendamento preferencial para idosos, gestantes, etc.
+                                            Envio de mensagem "Confirmação da Consulta" via Whatsapp.
+                                            Chamar paciente na TV (por voz) para seguir o atendimento.
+                                            Liberação e Recebimento de Consultas / Exames e Procedimentos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Triagem do paciente</h2>
+                                        <p class="lead">Seu profissional da enfermaria fara o atendimento da triagem
+                                            onde serão lançados:
+                                            pressão
+                                            peso
+                                            temperatura
+                                            altura
+                                            outros
+                                            Na triagem poderá ser feita a ANAMNESE do paciente.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Atendimento médico</h2>
+                                        <p class="lead">O atendimento do Paciente pelo Médico é algo totalmente simples.
+                                            Ao clicar no Nome e no botão Chamar o Paciente será chamado na TV e
+                                            direcionado ao consultório para ser atendido pelo médico.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Faturamento com filtros</h2>
+                                        <p class="lead">Fechamento do caixa por estação / por funcionário.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h2 class="display-2">Atendimento - Ficha médica do paciente (Prontuário)
+                                        </h2>
+                                        <p class="lead">Descrição da ficha médica e visualização dos atendimentos
+                                            anteriores cronologicamente por Médico e Especialidade.
+                                            Registro de fotos para acompanhar a evolução do tratamento. Ex. Um
+                                            dermatologista pode registrar uma foto de uma mancha para acompanhar sua
+                                            evolução / tratamento.
+                                            Impressão e registro de:
+                                            atestados
+                                            declarações
+                                            receituários
+                                            solicitações de exames
+                                            encaminhamentos
+                                            laudos diversos (USG, Raio-x, Tomografia, etc.)
+                                            Pesquisa do Cid10
+                                            Identificação da idade do paciênte em: Ano(s), mes(ses), e dias(s),
+                                            facilitando o atendimento de um pediatra por exemplo.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Dezenas de relatórios para ajudar em sua gestão</h2>
+                                        <p class="lead">Médicos, Dentistas, Pacientes, Fidelidade, Funcionários.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="display-2">Lançamento de despesas</h2>
+                                        <p class="lead">Elaboramos no sistema o Plano de Contas da suas empresa onde são
+                                            lançadas todas as suas despesas: pagamentos médicos, folha de pagamentos,
+                                            impostos, e taxas, despesas ficas como aluguel, água, luz, telefone e
+                                            outros.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="branding-recursos">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/telas/menu-principal.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="display-2">Sistema gestor completo totalmente adaptável para as necessidades de
+                                sua empresa.</h2>
+                            <p class="lead">Desenvolvido para Clínicas Médicas e
+                                Odontológicas:</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="list">
+                                        <li>Suporte técnico de qualidade</li>
+                                        <li>Backup automático na nuvem</li>
+                                        <li>Funciona normalmente sem internet</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="list">
+                                        <li>Módulo clube de beneficios</li>
+                                        <li>Ajustes no sistema para se adequar a sua gestão sem custos adicionais</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cloud-backup">
+                <div class="container container-fluid">
+                    <div class="row row1">
+                        <div class="col-md-6">
+                            <img src="img/telas/menu-principal.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="display-2">Segurança<br><span>Banco de Dados sempre seguro</span></h2>
+                            <p class="lead">O sistema de backup automáticamente executa diariamente uma cópia local e
+                                encaminha para a nuvem.</p>
+                            <ul class="list">
+                                <p class="lead">Como funciona:</p>
+                                <li>Backup automático</li>
+                                <li>Cópia local e na nuvem</li>
+                                <li>Funciona sem internet</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="display-2">Pagamentos<br><span>Gerador de boletos</span></h2>
+                            <p class="lead"><span>Para o recebimento de mensalidades (Cartão fidelidade) há um gerador
+                                    de
+                                    carnês de pagamentos com boleto, com ótimo design de títulos bancários, conferindo
+                                    seriedade do serviço e diminuindo sua inadimplência.</span></p>
+                            <a href="#" type="button" class="btn btn-dark my-2">Saiba + </a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/telas/menu-principal.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="ajustes">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 mx-auto">
+                            <img src="img/telas/menu-principal.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="display-2">Ajustes</h2>
+                            <p class="lead">Ajustes no sistema para se adequar a sua gestão sem custos adicionais</p>
+                            <a href="#" type="button" class="btn btn-dark my-2">Saiba + </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="faq">
+                <div class="container container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="display-2">F.A.Q</h2>
+                            <div class="acordeon" id="acordeon1">
+                                <div class="card">
+                                    <div class="card-header" id="heading">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#collapse1" aria-expanded="true"
+                                                aria-controls="collapse1">Tenho limite de
+                                                usuários?</button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapse1" class="collapse" aria-labelledby="heading"
+                                        data-parent="#acordeon1">
+                                        <div class="card-body">
+                                            <span>Não!</span><br>Não cobramos por número de usuários ou médicos.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="acordeon2">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                data-target="#collapse2" aria-expanded="true"
+                                                aria-controls="collapse2">Pago a mais pelos ajustes no sistema?</button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapse2" class="collapse" aria-labelledby="heading"
+                                        data-parent="#acordeon2">
+                                        <div class="card-body">
+                                            <span>Não!</span><br>Fazemos ajustes no sistema para se adequar a sua gestão
+                                            sem custos
+                                            adicionais.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark text-light">
+        <div class="container container-fluid text-center">
+            <span class="text-muted">Contatos: (21) 99540-7041 (21) 96470-0224 gesiobraga@msn.com.br</span>
+        </div>
+    </footer>
+    <a href="#" class="top"><img src="img/up.png" alt=""></a>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
